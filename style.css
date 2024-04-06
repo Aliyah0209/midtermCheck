@@ -60,7 +60,6 @@
     color: #000000;
 }
 
-/* footer styling */
 #footer {
     background-color: #808080;
     text-align: center;
@@ -79,18 +78,28 @@
 .navbar-brand{
     color: white;
 }
-.carousel-control-prev-icon {
+.carousel-control-prev{
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 90vh;
+    margin-top: 4vh;
+    overflow:hidden;
+}
+.carousel-control-next{
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 90vh;
+    margin-top: 4vh;
+    overflow:hidden;
+}
 
+.carousel-control-prev-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3e%3cpath d='M1.25 0l-1.25 4h2.75v1h-2.75l1.25 4 1.75-1.5-1.25-2.5h4.5v-1h-4.5l1.25-2.5z'/%3e%3c/svg%3e");
 }
 
 .carousel-control-next-icon{
-    
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3e%3cpath d='M6.75 0l1.25 4h-2.75v1h2.75l-1.25 4-1.75-1.5 1.25-2.5h-4.5v-1h4.5l-1.25-2.5z'/%3e%3c/svg%3e");
-    background-position: right center; /* Adjust the background position */
-    background-size: auto; /* Adjust the background size */
+    background-position: right center;
+    background-size: auto;
 }
-/* typewriter */
 
 
 
